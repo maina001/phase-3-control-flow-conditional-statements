@@ -38,5 +38,26 @@ end
 
 def calculator(operation, num1, num2)
   # your code here
+  case operation
+  when "+"
+    return num1 + num2
+  when "-"
+    return num1 - num2
+  when "*"
+    return num1 * num2
+  when "/"
+    return num1 / num2
+  else
+    puts "Invalid operation!"
+    return nil
+  end
+end
+
+
+
+
+
+
+
 end
 
